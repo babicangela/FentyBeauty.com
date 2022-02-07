@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Fenty Beauty">
+    <test verbose="2" preserve-order="true" name="C:/Users/Angela/FentyBeauty Project">
+
+        <classes>
+            <class name="ChangeCurrencyTest"/>
+            <class name="E2ETest"/>
+            <class name="SearchTest"/>
+            <class name="ShadeFinderTest"/>
+            <class name="ShoppingTest"/>
+            <class name="SignInTest"/>
+
+        </classes>
+
+
+    </test>
+</suite>
