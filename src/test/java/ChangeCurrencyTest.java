@@ -7,7 +7,7 @@ public class ChangeCurrencyTest extends BaseTest {
 
 
     /**
-     * Sign in with valid email and empty password
+     * Change country and currency
 
       Test steps:
       1. Navigate to https://fentybeauty.com/
