@@ -72,7 +72,7 @@ public class ShoppingCartPage extends BasePage {
     public CheckoutPage clickOnCheckoutButton() {
         assert isElementPresent(checkoutButton):"Error. Checkout button not present on page";
         logg.info("Clicking on Checkout button");
-        Reporter.log("Clicking oon Checkout button");
+        Reporter.log("Clicking on Checkout button");
         checkoutButton.click();
         return new CheckoutPage(driver);
     }
