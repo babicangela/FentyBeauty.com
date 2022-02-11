@@ -45,7 +45,7 @@ public class ShadeFinderTest extends BaseTest{
 
             Reporter.log("Verify that the PRO FILT’R displayed shade number result is #300",true);
             assert shadeFinderPage.proFiltr300result.getText().contains("300"): "Error. Shade number #300 should be displayed on page, but instead" +shadeFinderPage.proFiltr300result.getText() + " is displayed";
-            assert isCurrentURLEqualTo(StringsPage.SHADE_FINDER_RESUTLS_URL) : "Error, the user should be on " + StringsPage.SHADE_FINDER_RESUTLS_URL + "but is on" + driver.getCurrentUrl() + " instead";
+            assert isCurrentURLEqualTo(StringsPage.SHADE_FINDER_RESUTLS_URL) : "Error, the user should be on " + StringsPage.SHADE_FINDER_RESUTLS_URL + " but is on " + driver.getCurrentUrl() + " instead";
 
 
         } finally {
