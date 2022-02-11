@@ -33,14 +33,14 @@ public class SignInTest extends BaseTest {
 
             SignInPage signInPage = basePage.clickOnAccountPageIcon();
 
-            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL): "User is not on Signin Page URL";
+            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL): "Error. The user should be on the " + StringsPage.SIGNIN_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
             signInPage.enterTextInEmailInputField(StringsPage.VALID_EMAIL)
                     .enterTextInPasswordInputField(StringsPage.VALID_PASSWORD);
 
             UserAccountPage userAccountPage = signInPage.clickOnSignInButtonSuccess();
-            assert userAccountPage.isCurrentURLEqualTo(StringsPage.USER_ACCOUNT_PAGE_URL): "Error. The user is not on User Account Page";
+            assert userAccountPage.isCurrentURLEqualTo(StringsPage.USER_ACCOUNT_PAGE_URL): "Error. The user should be on the " + StringsPage.USER_ACCOUNT_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
             Reporter.log("Verify that the users name is displayed on the user account page",true);
-            assert  userAccountPage.customerFirstName.getText().contains("Andjela"):"Error. Customer's first name 'Andjela' not displayed on page";
+            assert userAccountPage.customerFirstName.getText().equals("Andjela") : "Error. Customers name 'Andjela' not displayed on page, instead " + userAccountPage.customerFirstName.getText() + " is displayed";
 
         } finally {
 
@@ -77,20 +77,20 @@ public class SignInTest extends BaseTest {
                     .clickAcceptWelcomeMessage();
 
             SignInPage signInPage = basePage.clickOnAccountPageIcon();
-            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL):"User is not on Signin Page URL";
+            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL): "Error. The user should be on the " + StringsPage.SIGNIN_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
             signInPage
                     .enterTextInEmailInputField(StringsPage.VALID_EMAIL)
                     .enterTextInPasswordInputField(StringsPage.VALID_PASSWORD);
 
             UserAccountPage userAccountPage = signInPage.clickOnSignInButtonSuccess();
             sleep();
-            assert userAccountPage.isCurrentURLEqualTo(StringsPage.USER_ACCOUNT_PAGE_URL):"Error. The user is not on User Account Page";
+            assert userAccountPage.isCurrentURLEqualTo(StringsPage.USER_ACCOUNT_PAGE_URL): "Error. The user should be on the " + StringsPage.USER_ACCOUNT_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
             Reporter.log("Verify that the users name is displayed on the user account page",true);
-            assert  userAccountPage.customerFirstName.getText().contains("Andjela"):"Error. Customer's first name 'Andjela' not displayed on page";
+            assert userAccountPage.customerFirstName.getText().equals("Andjela") : "Error. Customers name 'Andjela' not displayed on page, instead " + userAccountPage.customerFirstName.getText() + " is displayed";
 
             userAccountPage
                     .clickOnLogOutButton();
-            assert isCurrentURLEqualTo(StringsPage.HOME_PAGE_URL);
+            assert isCurrentURLEqualTo(StringsPage.HOME_PAGE_URL): "Error. The user should be on the " + StringsPage.HOME_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
 
         } finally {
 
@@ -124,14 +124,14 @@ public class SignInTest extends BaseTest {
                     .clickAcceptWelcomeMessage();
 
             SignInPage signInPage = basePage.clickOnAccountPageIcon();
-            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL);
+            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL): "Error. The user should be on the " + StringsPage.SIGNIN_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
             signInPage
                     .enterTextInEmailInputField(StringsPage.INVALID_EMAIL)
                     .enterTextInPasswordInputField(StringsPage.VALID_PASSWORD);
             signInPage.clickOnSignInButtonAndExpectError();
 
             Reporter.log("Verify that '" + StringsPage.INVALID_EMAIL_LOGIN_MESSAGE + "' message is displayed", true);
-            assert  signInPage.getInvalidEmailErrorMessageText().contains(StringsPage.INVALID_EMAIL_LOGIN_MESSAGE);
+            assert  signInPage.getInvalidEmailErrorMessageText().contains(StringsPage.INVALID_EMAIL_LOGIN_MESSAGE): "Invalid email error message should be displayed but its NOT";
 
         } finally {
 
@@ -164,7 +164,7 @@ public class SignInTest extends BaseTest {
                     .clickAcceptWelcomeMessage();
 
             SignInPage signInPage = basePage.clickOnAccountPageIcon();
-            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL);
+            assert signInPage.isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL): "Error. The user should be on the " + StringsPage.SIGNIN_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
 
             signInPage
                     .enterTextInEmailInputField(StringsPage.VALID_EMAIL);
@@ -172,7 +172,7 @@ public class SignInTest extends BaseTest {
 
             assert isElementPresent(signInPage.emptyPasswordFieldErrorMessage);
             Reporter.log("Verify that '" + StringsPage.EMPTY_PASSWORD_MESSAGE + "' message is displayed", true);
-            assert signInPage.emptyPasswordFieldErrorMessage.getText().contains("*password must be more than 5 characters");
+            assert signInPage.emptyPasswordFieldErrorMessage.getText().contains("*password must be more than 5 characters"): "Empty password field error message NOT displayed";
 
         } finally {
 
