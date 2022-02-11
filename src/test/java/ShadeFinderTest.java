@@ -44,8 +44,8 @@ public class ShadeFinderTest extends BaseTest{
             shadeFinderPage.clickOnWarmGolden300();
 
             Reporter.log("Verify that the PRO FILT’R displayed shade number result is #300",true);
-            assert shadeFinderPage.proFiltr300result.getText().contains("300"): "Error. Shade number should be 300 but it's NOT";
-            assert isCurrentURLEqualTo(StringsPage.SHADE_FINDER_RESUTLS_URL) : "Error. The user is not on Shade Finder results page";
+            assert shadeFinderPage.proFiltr300result.getText().contains("300"): "Error. Shade number #300 should be displayed on page, but instead" +shadeFinderPage.proFiltr300result.getText() + " is displayed";
+            assert isCurrentURLEqualTo(StringsPage.SHADE_FINDER_RESUTLS_URL) : "Error, the user should be on " + StringsPage.SHADE_FINDER_RESUTLS_URL + "but is on" + driver.getCurrentUrl() + " instead";
 
 
         } finally {
@@ -53,8 +53,4 @@ public class ShadeFinderTest extends BaseTest{
         }
         driver.quit();
     }
-
 }
-
-
-
