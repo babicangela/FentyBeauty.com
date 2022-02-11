@@ -7,7 +7,7 @@ public class ChangeCurrencyTest extends BaseTest {
 
 
     /**
-     * Change country and currency
+     * Sign in with valid email and empty password
 
       Test steps:
       1. Navigate to https://fentybeauty.com/
@@ -18,7 +18,7 @@ public class ChangeCurrencyTest extends BaseTest {
 
       Expected result:
       2. Verify that the Serbian flag is displayed on the flag icon
-      5. Verify that change shipping country pop up is displayed
+      3. Verify that change shipping country pop up is displayed
       5. Verify that the United States flag is displayed on the flag icon
      */
 
@@ -37,13 +37,13 @@ public class ChangeCurrencyTest extends BaseTest {
 
             sleep();
             Reporter.log("Verify that the RS flag is displayed on the Flag icon", true);
-            assert basePage.serbiaFlag.isDisplayed() : "Error. The RS flag should be displayed on flag icon but is NOT";
+            assert basePage.serbiaFlag.isDisplayed() : "Error, " + basePage.serbiaFlag + " should be displayed on the flag icon, but its NOT";
 
             basePage.clickOnFlagIcon();
 
             sleep();
             Reporter.log("Verify that the Change Shipping Country Popup is displayed", true);
-            assert basePage.changeShippingCountryPopUp.isDisplayed() : "Error. Popup not displayed";
+            assert basePage.changeShippingCountryPopUp.isDisplayed() : "Error," + basePage.changeShippingCountryPopUp + "NOT displayed";
 
             Reporter.log("Changing shipping country from RS to US by clicking Change your shipping country/region and choosing US from the dropdown selection list");
             basePage.changeShippingCountry.findElement(By.xpath("//*[@id='gle_selectedCountry']/option[190]")).click();
@@ -51,7 +51,7 @@ public class ChangeCurrencyTest extends BaseTest {
 
             sleep();
             Reporter.log("Verify that the US flag is displayed on the Flag icon", true);
-            assert basePage.unitedStatesFlag.isDisplayed() : "Error. The US flag should be displayed on flag icon but is NOT";
+            assert basePage.unitedStatesFlag.isDisplayed() : "Error, " + basePage.unitedStatesFlag + " should be displayed on flag icon but is NOT";
 
 
         } finally {
@@ -61,9 +61,3 @@ public class ChangeCurrencyTest extends BaseTest {
     }
 
 }
-
-
-
-
-
-
