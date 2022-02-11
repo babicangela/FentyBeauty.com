@@ -61,13 +61,13 @@ public class E2ETest extends BaseTest {
                     .clickAcceptWelcomeMessage();
 
             SignInPage signInPage = basePage.clickOnAccountPageIcon();
-            assert isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL) : "Error. The user is not on Sign in page";
+            assert isCurrentURLEqualTo(StringsPage.SIGNIN_PAGE_URL) : "Error. The user should be on " + StringsPage.SIGNIN_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
 
             signInPage
                     .enterTextInEmailInputField(StringsPage.INVALID_EMAIL)
                     .passwordInputField.click();
             Reporter.log("Verify that '" + StringsPage.INVALID_EMAIL_LOGIN_MESSAGE + "' message is displayed", true);
-            assert signInPage.invalidEmailErrorMessage.getText().contains(StringsPage.INVALID_EMAIL_LOGIN_MESSAGE) : "Error. Error message not displayed";
+            assert signInPage.invalidEmailErrorMessage.getText().contains(StringsPage.INVALID_EMAIL_LOGIN_MESSAGE) : "Error message not displayed on page";
 
             Reporter.log("Delete invalid email from email input field");
             signInPage.emailInputField.clear();
@@ -78,22 +78,22 @@ public class E2ETest extends BaseTest {
 
             Reporter.log("Verify that '" + StringsPage.EMPTY_PASSWORD_MESSAGE + "' message is displayed", true);
             assert isElementPresent(signInPage.emptyPasswordFieldErrorMessage) : "Empty password field error message should be displayed but is NOT";
-            assert signInPage.emptyPasswordFieldErrorMessage.getText().contains(StringsPage.EMPTY_PASSWORD_MESSAGE);
+            assert signInPage.emptyPasswordFieldErrorMessage.getText().contains(StringsPage.EMPTY_PASSWORD_MESSAGE): "Error message NOT displayed";
 
 
             signInPage.enterTextInPasswordInputField(StringsPage.VALID_PASSWORD);
             UserAccountPage userAccountPage = signInPage.clickOnSignInButtonSuccess();
-            assert isCurrentURLEqualTo(StringsPage.USER_ACCOUNT_PAGE_URL) : " Error. The user is not on User account page URL";
+            assert isCurrentURLEqualTo(StringsPage.USER_ACCOUNT_PAGE_URL) : "Error. The user should be on " + StringsPage.USER_ACCOUNT_PAGE_URL+ " but is on " + driver.getCurrentUrl() + " instead" ;
 
             Reporter.log("Verify that the users name is displayed on the user account page",true);
-            assert userAccountPage.customerFirstName.getText().equals("Andjela") : "Error. Customers first name not present";
+            assert userAccountPage.customerFirstName.getText().equals("Andjela") : "Error. Customers name 'Andjela' not displayed on page, instead " + userAccountPage.customerFirstName.getText() + " is displayed";
 
             ShopPage shopPage = userAccountPage.clickOnShopButtonLInk();
-            Reporter.log("Verify that the number of items before filtering is 115 items", true);
-            assert shopPage.shopPageItemNumber.getText().equals("115 ITEMS") : "Error. Shop page item number should be 115, but is not";
+            Reporter.log("Verify that the number of items before filtering is 114 items", true);
+            assert shopPage.shopPageItemNumber.getText().equals("114 ITEMS") : "Error. Shop page item number should be 114, but is " + shopPage.shopPageItemNumber.getText();
 
             shopPage.clickOnShowFiltersButton();
-            assert isElementPresent(shopPage.productFilterBody) : "Error. Product Filter Body not present";
+            assert isElementPresent(shopPage.productFilterBody) : "Error. Product Filter Body not present on page";
 
             shopPage.clickOnMatteFilterCheckBox();
             shopPage.clickOnApplyFiltersButton();
@@ -101,36 +101,36 @@ public class E2ETest extends BaseTest {
             sleep();
 
             Reporter.log("Verify that the number of items after filtering is 150 items", true);
-            assert shopPage.shopPageItemNumber.getText().equals("150 ITEMS") : "Error. Shop page item number should be 100, but is not";
+            assert shopPage.shopPageItemNumber.getText().equals("150 ITEMS") : "Error. Shop page item number should be 100, but is " + shopPage.shopPageItemNumber.getText();
 
             ProductsPage productsPage = shopPage.clickOnProFiltrSoftMatte185();
 
             sleep();
-            assert isCurrentURLEqualTo(StringsPage.PRO_FILTR185_PRODUCTS_URL) : "Error. The URL is incorrect.";
+            assert isCurrentURLEqualTo(StringsPage.PRO_FILTR185_PRODUCTS_URL) : "Error, the user should be on " + StringsPage.PRO_FILTR185_PRODUCTS_URL + " but is on " + driver.getCurrentUrl() + " instead";
             Reporter.log("Verify that the PRO FILT'R shade number #185 is displayed on page", true);
-            assert productsPage.shadeNumber.getText().equals("#185") : "Shade number #185 not displayed on page";
+            assert productsPage.shadeNumber.getText().equals("#185") : "Shade number #185 should be displayed on page, but instead shade number " + productsPage.shadeNumber.getText() + " is displayed";
 
             Reporter.log("Change shade number from #185 to #300 by choosing shade number #300 from the Filter Shade Range");
             productsPage.choseDifferentShade();
             sleep();
 
-            assert isCurrentURLEqualTo(StringsPage.PRO_FILTR300_PRODUCTS_URL) : "Error. The URL is incorrect";
+            assert isCurrentURLEqualTo(StringsPage.PRO_FILTR300_PRODUCTS_URL) : "Error, the user should be on " + StringsPage.PRO_FILTR300_PRODUCTS_URL + " but is on " + driver.getCurrentUrl() + " instead";
             Reporter.log("Verify that the shade number #300 is displayed on the page", true);
-            assert productsPage.shadeNumber.getText().equals("#300") : "Shade number #300 not displayed on page";
+            assert productsPage.shadeNumber.getText().equals("#300") : "Shade number #300 should be displayed on page, but instead shade number " + productsPage.shadeNumber.getText() + " is displayed";
 
             productsPage.clickOnAddToCart();
             sleep();
             Reporter.log("Verify that number 1 is displayed in the shopping cart badge", true);
-            assert productsPage.shoppingCartBadgeNumber.getText().contains("1") : "Error. Number 1 not displayed on shopping cart badge";
+            assert productsPage.shoppingCartBadgeNumber.getText().contains("1") : "Error. Number 1 should be displayed on shopping cart badge, but instead " + productsPage.shoppingCartBadgeNumber.getText() + " is displayed";
 
             ShoppingCartPage shoppingCartPage = productsPage.clickOnShoppingCartHeaderButton().clickOnViewBagButton();
 //          sleep();
-            assert isCurrentURLEqualTo(StringsPage.SHOPPING_CART_PAGE_URL) : "Error, the user is not on the Shopping Cart Page URL";
+            assert isCurrentURLEqualTo(StringsPage.SHOPPING_CART_PAGE_URL) : "Error, the user should be on " + StringsPage.SHOPPING_CART_PAGE_URL +  " but is on " + driver.getCurrentUrl() + " instead";
 
             sleep();
             CheckoutPage checkoutPage = shoppingCartPage.clickOnCheckoutButton();
             Reporter.log("Verify that the User is navigated to the checkout page URL", true);
-            assert isCurrentURLEqualTo(StringsPage.CHECKOUT_PAGE_URL) : "Error. The user is not on Checkout page URL";
+            assert isCurrentURLEqualTo(StringsPage.CHECKOUT_PAGE_URL) : "Error. The user should be on " +  StringsPage.CHECKOUT_PAGE_URL + " but is on " + driver.getCurrentUrl() + " instead";
 
         } finally {
 
