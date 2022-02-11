@@ -101,7 +101,7 @@ public class E2ETest extends BaseTest {
             sleep();
 
             Reporter.log("Verify that the number of items after filtering is 150 items", true);
-            assert shopPage.shopPageItemNumber.getText().equals("150 ITEMS") : "Error. Shop page item number should be 100, but is " + shopPage.shopPageItemNumber.getText();
+            assert shopPage.shopPageItemNumber.getText().equals("150 ITEMS") : "Error. Shop page item number should be 150, but is " + shopPage.shopPageItemNumber.getText();
 
             ProductsPage productsPage = shopPage.clickOnProFiltrSoftMatte185();
 
