@@ -36,7 +36,6 @@ public class BaseTest {
         return driver;
     }
 
-    // @AfterMethod  is annotated method and is executed after every method in the test suite
     @AfterMethod
     public void getResult(ITestResult result) throws Exception {
         if (result.getStatus() == ITestResult.FAILURE) {
@@ -44,6 +43,7 @@ public class BaseTest {
         }
     }
 
+    
     @AfterTest
     public void tearDown() {
 
@@ -60,6 +60,7 @@ public class BaseTest {
         return b;
     }
 
+    
     public boolean isElementPresent(WebElement element) {
         log.info("isElementPresent");
         Reporter.log("isElementPresent");
@@ -69,7 +70,7 @@ public class BaseTest {
             else isPresent = false;
             return true;
         } catch (Exception e) {
-            log.info(e.getMessage());
+            log.warn(e.getMessage());
             Reporter.log(e.getMessage());
 
             log.info("Element is not present on page");
@@ -79,15 +80,17 @@ public class BaseTest {
         }
     }
 
+    
     public void sleep() {
         try {
             Thread.sleep(5000);
         } catch (Exception e) {
-            log.info(e.getMessage());
+            log.warn(e.getMessage());
             Reporter.log(e.getMessage());
         }
     }
 
+    
     public void takeScreenshot(String screenshotName) throws Exception {
         log.info("Capturing screenshot");
         Reporter.log("Capturing screenshot");
@@ -96,18 +99,20 @@ public class BaseTest {
         try {
             FileUtils.copyFile(source, new File("./screenshots/" + screenshotName + System.currentTimeMillis() + ".png"));
         } catch (Exception e) {
-            log.info("Exception while taking screenshot" + e.getMessage());
+            log.warn("Exception while taking screenshot" + e.getMessage());
             Reporter.log("Exception while taking screenshot" + e.getMessage());
             Reporter.log("<br><img src='" + screenshotName + "' height='200' width='300'/><br>");
 //                Reporter.log("<a href=" + screenshotName + "></a>");
         }
-
     }
 
+    
     public void waitForElement(WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
+    
+    
     //print method
 //    public void print(String text) {
 //        System.out.println(text);
