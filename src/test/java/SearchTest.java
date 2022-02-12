@@ -22,7 +22,7 @@ public class SearchTest extends BaseTest {
       3. Verify that search input field is displayed on page
       4. Verify that the user is on a search result page and the title is "SEARCH RESULTS FOR "HIGHLIGHTER DIAMOND"
       5. Verify that the user is navigated to the Royal Icing products page URL
-      6. Verify that Rosé Rave shade name in displayed in the shade selector dropdown, and that the user is on Rosé Rave products page URL
+      6. Verify that Rosé Rave shade name in displayed in the shade selector dropdown list, and that the user is on Rosé Rave products page URL
       7. Verify that the shopping cart overview wrapper containing selected item slides out on the right side of the page
       7. Verify that the number 1 is displayed in the shopping cart badge
      */
