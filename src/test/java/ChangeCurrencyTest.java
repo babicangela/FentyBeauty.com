@@ -17,9 +17,9 @@ public class ChangeCurrencyTest extends BaseTest {
       Expected result:
       1. The 'Accept cookies' and 'Welcome message' are displayed on screen
       2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
-      2. Verify that the Serbian flag is displayed on the flag icon in the header navigation menu
+      2. Verify that the Serbian flag is displayed on the flag icon from the header navigation menu
       3. Verify that change shipping country pop up with 'Change your shipping country/region' dropdown selection list is displayed on screen
-      5. Verify that the United States flag is displayed on the flag icon in the header navigation menu
+      5. Verify that the United States flag is displayed on the flag icon from the header navigation menu
      */
 
 
