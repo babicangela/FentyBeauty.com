@@ -18,7 +18,7 @@ public class SearchTest extends BaseTest {
 
       Expected results:
       1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-      2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+      2. 'Cookies' and 'Welcome message' are no longer displayed on screen
       3. Verify that search input field is displayed on page
       4. Verify that the user is on a search result page and the title is "SEARCH RESULTS FOR "HIGHLIGHTER DIAMOND"
       5. Verify that the user is navigated to the Royal Icing products page URL
