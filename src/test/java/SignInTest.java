@@ -18,7 +18,7 @@ public class SignInTest extends BaseTest {
 
  Expected result:
    1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-   2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+   2. 'Cookies' and 'Welcome message' are no longer displayed on screen
    3. Verify that the user is on the Signin page URL
    4. Verify that 'email input field' is displayed on page
    5. Verify that 'password input field' is displayed on page
@@ -67,7 +67,7 @@ public class SignInTest extends BaseTest {
 
      Expected result:
      1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-     2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+     2. 'Cookies' and 'Welcome message' are no longer displayed on screen
      3. Verify that the user is on the Signin page URL
      4. Verify that 'email input field' is displayed on page
      5. Verify that 'password input field' is displayed on page
@@ -121,7 +121,7 @@ public class SignInTest extends BaseTest {
 
      Expected results:
      1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-     2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+     2. 'Cookies' and 'Welcome message' are no longer displayed on screen
      3. Verify that the user is on the Signin page URL
      4. Verify that 'email input field' is displayed on page
      5. Verify that 'password input field' is displayed on page
@@ -166,7 +166,7 @@ public class SignInTest extends BaseTest {
 
      Expected result:
      1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-     2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+     2. 'Cookies' and 'Welcome message' are no longer displayed on screen
      3. Verify that the user is on the Signin page URL
      4. Verify that 'email input field' is displayed on page
      5. Verify that error message containing "*password must be more than 5 characters" is displayed.
