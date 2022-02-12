@@ -19,7 +19,7 @@ public class ShadeFinderTest extends BaseTest{
 
      Expected results:
       1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-      2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+      2. 'Cookies' and 'Welcome message' are no longer displayed on screen
       3. The user is navigated to the Shade finder URL page, verify that 'FIND MY SHADE' button is present on page
       4. Verify that 'SoftMate255' (5th photo in the displayed row) is displayed in the 'SELECT THE MODEL CLOSEST TO YOUR SKIN TONE TO FIND YOUR SHADE RANGE' options list
       5. Verify that 'WHAT TONE OF JEWELRY DO YOU LOOK BEST IN' selection list is displayed on page
