@@ -9,23 +9,26 @@ public class ShoppingTest extends BaseTest {
      * Add and remove item from shopping cart page
 
       Test steps:
-      1. Navigate to https://fentybeauty.com/, accept cookies and welcome message
-      2. Click on Shop page link from the header navigation menu
-      3. Add to cart "Glossy Posse Bomb Collection"
-      4. Add to cart "Match Stix Contour Skinstick:Lunar New Year Edition"
-      5. Click on Shopping cart button from the header navigation menu, then click on View button in the shopping cart overview
-      6. Click on remove button
+      1. Navigate to https://fentybeauty.com/,
+      2. Accept cookies and welcome message
+      3. Click on Shop page link from the header navigation menu
+      4. Add to cart "Glossy Posse Bomb Collection"
+      5. Add to cart "Match Stix Contour Skinstick:Lunar New Year Edition"
+      6. Click on Shopping cart button from the header navigation menu, then click on View button in the shopping cart overview
+      7. Click on remove button
 
       Expected results:
-      2. Verify that the shopping cart is empty
-      3. Verify that the shopping cart overview wrapper containing selected item slides out on the right side of the page
-      3. Verify that the number 1 is displayed in the shopping cart badge
-      4. Verify that the shopping cart overview wrapper containing 2 selected items slides out on the right side of the page
-      4. Verify that the number 2 is displayed in the shopping cart badge
+      1. The 'Accept cookies' and 'Welcome message' are displayed on screen
+      2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+      3. Verify that the shopping cart is empty
+      4. Verify that the shopping cart overview wrapper containing selected item slides out on the right side of the page
+      5. Verify that the number 1 is displayed in the shopping cart badge
       5. Verify that the shopping cart overview wrapper containing 2 selected items slides out on the right side of the page
-      5. Verify the Shopping cart page URL and that the number of items displayed in the shopping cart is 2 items
-      6. Verify that the number of items left in the shopping cart is 1 item
-      6. Verify that number 1 is displayed on the shopping cart badge
+      5. Verify that the number 2 is displayed in the shopping cart badge
+      6. Verify that the shopping cart overview wrapper containing 2 selected items slides out on the right side of the page
+      6. Verify the Shopping cart page URL and that the number of items displayed in the shopping cart is 2 items
+      7. Verify that the number of items left in the shopping cart is 1 item
+      7. Verify that number 1 is displayed on the shopping cart badge
      */
 
 
@@ -86,7 +89,8 @@ public class ShoppingTest extends BaseTest {
     /** Filter, Add and Increase The Item Number, and proceed to Checkout
      *
      Test steps:
-     1. Navigate to https://fentybeauty.com/, accept cookies and welcome message
+     1. Navigate to https://fentybeauty.com/
+     2. Accept cookies and welcome message
      2. Click on Shop page link from the header navigation menu
      3. Click on Show filters button
      4. Click on Natural checkbox
@@ -100,7 +104,9 @@ public class ShoppingTest extends BaseTest {
      12. Click on the Checkout button
 
      Expected results:
-     2. Verify that the number of items on Shop page before clicking on apply button is 111
+     1. The 'Accept cookies' and 'Welcome message' are displayed on screen
+     2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+     3. Verify that the number of items on Shop page before clicking on apply button is 111
      6. Verify that the number of items on Shop page after clicking on apply button is 25
      8. The user is navigated to the "Eaze Drop Blurring Skin Tint 11" products page. Verify the URL.
      9. Verify that the shopping cart overview wrapper containing selected items slides out on the right side of the page
@@ -186,4 +192,3 @@ public class ShoppingTest extends BaseTest {
         }  driver.quit();
     }
 }
-
