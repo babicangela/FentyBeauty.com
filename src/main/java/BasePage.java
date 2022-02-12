@@ -139,7 +139,7 @@ import java.io.File;
         public SearchPage enterTextInSearchInputField(String text){
             assert isElementPresent(searchInputField):"Error. Search input field not present on page";
             logg.info("Entering " + StringsPage.DIAMOND + " in search input field and clicking enter");
-            Reporter.log("Entering " +StringsPage.DIAMOND+ " in search input field and clicking enter");
+            Reporter.log("Entering " + StringsPage.DIAMOND + " in search input field and clicking enter");
             searchInputField.click();
             searchInputField.sendKeys(text);
             searchInputField.sendKeys(Keys.ENTER);
@@ -204,9 +204,9 @@ import java.io.File;
                 boolean isPresent = element.isDisplayed();
                 return true;
             } catch (Exception e) {
-                logg.info(e.getMessage());
+                logg.warn(e.getMessage());
                 Reporter.log(e.getMessage());
-                logg.info("Element is not present on page");
+                logg.warn("Element is not present on page");
                 Reporter.log("Element is not present on page");
                 return false;
             }
@@ -241,7 +241,7 @@ import java.io.File;
             try {
                 FileUtils.copyFile(source, new File("./Screenshots/" + screenshotName + ".png"));
             } catch (Exception e) {
-                logg.info("Exception while taking screenshot" + e.getMessage());
+                logg.warn("Exception while taking screenshot" + e.getMessage());
                 Reporter.log("Exception while taking screenshot" + e.getMessage());
             }
         }
