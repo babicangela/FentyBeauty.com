@@ -19,7 +19,7 @@ public class ShoppingTest extends BaseTest {
 
       Expected results:
       1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-      2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+      2. 'Cookies' and 'Welcome message' are no longer displayed on screen
       3. Verify that the shopping cart is empty
       4. Verify that the shopping cart overview wrapper containing selected item slides out on the right side of the page
       5. Verify that the number 1 is displayed in the shopping cart badge
