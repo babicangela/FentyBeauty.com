@@ -1,4 +1,3 @@
-import com.aventstack.extentreports.model.Report;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -11,13 +10,16 @@ public class SearchTest extends BaseTest {
       Test steps:
       1. Navigate to https://fentybeauty.com/
       2. Accept cookies and welcome message
-      3. Click on search button from the header navigation menu
+      3. Click on search icon from the header navigation menu
       4. Type in the item name and press enter
       5. Click on Royal Icing from the displayed search result list
       6. Click on Rosé Rave from the Swatch selector list
       7. Click add to cart
 
       Expected results:
+      1. The 'Accept cookies' and 'Welcome message' are displayed on screen
+      2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+      3. Verify that search input field is displayed on page
       4. Verify that the user is on a search result page and the title is "SEARCH RESULTS FOR "HIGHLIGHTER DIAMOND"
       5. Verify that the user is navigated to the Royal Icing products page URL
       6. Verify that Rosé Rave shade name in displayed in the shade selector dropdown, and that the user is on Rosé Rave products page URL
@@ -35,6 +37,7 @@ public class SearchTest extends BaseTest {
                     .clickOnCookiesAcceptButton()
                     .clickAcceptWelcomeMessage()
                     .clickOnSearchButon();
+            assert isElementPresent(basePage.searchInputField): "Error. Search input field not displayed on page";
 
             SearchPage searchPage = basePage.enterTextInSearchInputField(StringsPage.DIAMOND);
 
