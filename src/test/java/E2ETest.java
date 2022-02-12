@@ -31,7 +31,7 @@ public class E2ETest extends BaseTest {
 
      * Expected results:
       1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-      2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+      2. 'Cookies' and 'Welcome message' are no longer displayed on screen
       3. Verify that the user is on Fenty Beauty Signin Page
       4. Verify that error message "*email is not valid" is displayed
       6. Verify that the error message "*password must be more than 5 characters" is displayed
