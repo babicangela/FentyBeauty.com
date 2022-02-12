@@ -30,6 +30,8 @@ public class E2ETest extends BaseTest {
      16. Click on "Checkout" button
 
      * Expected results:
+      1. The 'Accept cookies' and 'Welcome message' are displayed on screen
+      2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
       3. Verify that the user is on Fenty Beauty Signin Page
       4. Verify that error message "*email is not valid" is displayed
       6. Verify that the error message "*password must be more than 5 characters" is displayed
@@ -101,7 +103,7 @@ public class E2ETest extends BaseTest {
             sleep();
 
             Reporter.log("Verify that the number of items after filtering is 150 items", true);
-            assert shopPage.shopPageItemNumber.getText().equals("150 ITEMS") : "Error. Shop page item number should be 150, but is " + shopPage.shopPageItemNumber.getText();
+            assert shopPage.shopPageItemNumber.getText().equals("150 ITEMS") : "Error. Shop page item number should be 150 ITEMS, but is " + shopPage.shopPageItemNumber.getText();
 
             ProductsPage productsPage = shopPage.clickOnProFiltrSoftMatte185();
 
@@ -139,6 +141,3 @@ public class E2ETest extends BaseTest {
     }
 
 }
-
-
-
