@@ -11,7 +11,7 @@ public class SearchTest extends BaseTest {
       1. Navigate to https://fentybeauty.com/
       2. Accept cookies and welcome message
       3. Click on search icon from the header navigation menu
-      4. Type in the item name and press enter
+      4. Type in the item name 'HIGHLIGHTER DIAMOND' and press enter
       5. Click on Royal Icing from the displayed search result list
       6. Click on Rosé Rave from the Swatch selector list
       7. Click add to cart
