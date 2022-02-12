@@ -69,7 +69,7 @@ public class E2ETest extends BaseTest {
                     .enterTextInEmailInputField(StringsPage.INVALID_EMAIL)
                     .passwordInputField.click();
             Reporter.log("Verify that '" + StringsPage.INVALID_EMAIL_LOGIN_MESSAGE + "' message is displayed", true);
-            assert signInPage.invalidEmailErrorMessage.getText().contains(StringsPage.INVALID_EMAIL_LOGIN_MESSAGE) : "Error message not displayed on page";
+            assert signInPage.invalidEmailErrorMessage.getText().contains(StringsPage.INVALID_EMAIL_LOGIN_MESSAGE) : "Invalid Email Error message not displayed on page";
 
             Reporter.log("Delete invalid email from email input field");
             signInPage.emailInputField.clear();
@@ -80,7 +80,7 @@ public class E2ETest extends BaseTest {
 
             Reporter.log("Verify that '" + StringsPage.EMPTY_PASSWORD_MESSAGE + "' message is displayed", true);
             assert isElementPresent(signInPage.emptyPasswordFieldErrorMessage) : "Empty password field error message should be displayed but is NOT";
-            assert signInPage.emptyPasswordFieldErrorMessage.getText().contains(StringsPage.EMPTY_PASSWORD_MESSAGE): "Error message NOT displayed";
+            assert signInPage.emptyPasswordFieldErrorMessage.getText().contains(StringsPage.EMPTY_PASSWORD_MESSAGE): " Empty Password Error message not displayed on page";
 
 
             signInPage.enterTextInPasswordInputField(StringsPage.VALID_PASSWORD);
