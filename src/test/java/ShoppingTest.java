@@ -105,7 +105,7 @@ public class ShoppingTest extends BaseTest {
 
      Expected results:
      1. The 'Accept cookies' and 'Welcome message' are displayed on screen
-     2. 'Accept cookies' and 'Welcome message' are no longer displayed on screen
+     2. 'Cookies' and 'Welcome message' are no longer displayed on screen
      3. Verify that the number of items on Shop page before clicking on apply button is 111
      6. Verify that the number of items on Shop page after clicking on apply button is 25
      8. The user is navigated to the "Eaze Drop Blurring Skin Tint 11" products page. Verify the URL.
