@@ -6,7 +6,7 @@ public class E2ETest extends BaseTest {
 
 
     /**
-     * End to end test
+     * EndToEnd test
 
      This is the basic E2E test, simulating the real user's experience, from navigating to Home Page over to Check Out Page,
       while executing and validating different tasks in between.
