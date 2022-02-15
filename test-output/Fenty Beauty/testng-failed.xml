@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Fenty Beauty]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Angela/FentyBeauty Project(failed)">
+    <classes>
+      <class name="ShoppingTest">
+        <methods>
+          <include name="filterAndAddItemThenIncreaseTheNumberInTheShoppingCart"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- ShoppingTest -->
+      <class name="E2ETest">
+        <methods>
+          <include name="EndToEnd"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- E2ETest -->
+    </classes>
+  </test> <!-- C:/Users/Angela/FentyBeauty Project(failed) -->
+</suite> <!-- Failed suite [Fenty Beauty] -->

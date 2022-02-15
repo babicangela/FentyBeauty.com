@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>TestNG:  C:/Users/Angela/FentyBeauty Project</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>C:/Users/Angela/FentyBeauty Project</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 14 09:42:06 CET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>237 seconds (237969 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ChangeCurrencyTest.ChangeCountryAndCurrency()'><b>ChangeCountryAndCurrency</b><br>Test class: ChangeCurrencyTest<br/>
+<a href="#Output-762809053" onClick='toggleBox("Output-762809053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-762809053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-762809053">
+Setting up Chrome driver<br/>
+Opening Chrome driver<br/>
+Navigating to https://fentybeauty.com/ <br/>
+Is Element present<br/>
+Clicking on Cookies Accept button<br/>
+Is Element present<br/>
+Clicking on Accept Welcome Message<br/>
+Verify that the RS flag is displayed on the Flag icon<br/>
+Is Element present<br/>
+Clicking on Flag Icon<br/>
+Is Element present<br/>
+Verify that the Change Shipping Country Popup is displayed<br/>
+Changing shipping country from RS to US by clicking Change your shipping country/region and choosing US from the dropdown selection list<br/>
+Is Element present<br/>
+Clicking on Save button<br/>
+Verify that the US flag is displayed on the Flag icon<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>ChangeCurrencyTest@57576994</td></tr>
+<tr>
+<td title='ShadeFinderTest.FindYourShade()'><b>FindYourShade</b><br>Test class: ShadeFinderTest<br/>
+<a href="#Output-2003961164" onClick='toggleBox("Output-2003961164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2003961164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2003961164">
+Setting up Chrome driver<br/>
+Opening Chrome driver<br/>
+Navigating to https://fentybeauty.com/ <br/>
+Is Element present<br/>
+Clicking on Cookies Accept button<br/>
+Is Element present<br/>
+Clicking on Accept Welcome Message<br/>
+Is Element present<br/>
+Clicking on Shade Finder page link<br/>
+Is Element present<br/>
+Clicking on Find my shade button<br/>
+Is Element present<br/>
+Clicking on Soft Matte 255<br/>
+Is Element present<br/>
+Clicking on BOTH<br/>
+Is Element present<br/>
+Clicking on Rarely burn and/or tans easily<br/>
+Is Element present<br/>
+Clicking on Purple<br/>
+Is Element present<br/>
+Clicking on GOLDEN OLIVE<br/>
+Is Element present<br/>
+Clicking on Warm Golden 300<br/>
+Verify that the PRO FILT’R displayed shade number result is #300<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/pages/fenty-face-shade-finder-results?shade=300 )<br/>
+User is on https://fentybeauty.com/pages/fenty-face-shade-finder-results?shade=300<br/>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>ShadeFinderTest@67b9b51a</td></tr>
+<tr>
+<td title='ShoppingTest.addAndRemoveItemsFromShoppingCartPage()'><b>addAndRemoveItemsFromShoppingCartPage</b><br>Test class: ShoppingTest<br/>
+<a href="#Output-2113367449" onClick='toggleBox("Output-2113367449", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2113367449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2113367449">
+Setting up Chrome driver<br/>
+Opening Chrome driver<br/>
+Navigating to https://fentybeauty.com/ <br/>
+Is Element present<br/>
+Clicking on Cookies Accept button<br/>
+Is Element present<br/>
+Clicking on Accept Welcome Message<br/>
+Is Element present<br/>
+Clicking on Shop page link<br/>
+Verify that the shopping cart is empty<br/>
+Getting number of items from shopping cart badge<br/>
+Clicking add to cart Glossy Posse Bomb Collection<br/>
+Verify that the number 1 is displayed in the shopping cart badge<br/>
+isElementPresent<br/>
+Getting number of items from shopping cart badge<br/>
+Is Element present<br/>
+Clicking add to cart Resting Peach Face Cream Blush<br/>
+Verify that the number 2 is displayed in the shopping cart badge<br/>
+isElementPresent<br/>
+Getting number of items from shopping cart badge<br/>
+Is Element present<br/>
+Clicking on Shopping Cart Header button<br/>
+Is Element present<br/>
+Clicking on View Bag button<br/>
+isElementPresent<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/cart )<br/>
+User is on https://fentybeauty.com/cart<br/>
+Verify that the number of items displayed in the shopping cart is 2 items<br/>
+Get number of items from shopping cart badge<br/>
+Is Element present<br/>
+Clicking on Remove from cart<br/>
+Is Element present<br/>
+Clicking on YES button<br/>
+Verify that the number of items left in the shopping cart is 1 item<br/>
+Get number of items from shopping cart badge<br/>
+Verify that number 1 is displayed on the shopping cart badge<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>ShoppingTest@1205bd62</td></tr>
+<tr>
+<td title='ShoppingTest.filterAndAddItemThenIncreaseTheNumberInTheShoppingCart()'><b>filterAndAddItemThenIncreaseTheNumberInTheShoppingCart</b><br>Test class: ShoppingTest<br/>
+<a href="#Output-576222471" onClick='toggleBox("Output-576222471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-576222471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-576222471">
+Setting up Chrome driver<br/>
+Opening Chrome driver<br/>
+Navigating to https://fentybeauty.com/ <br/>
+Is Element present<br/>
+Clicking on Cookies Accept button<br/>
+Is Element present<br/>
+Clicking on Accept Welcome Message<br/>
+Is Element present<br/>
+Clicking on Shop page link<br/>
+Is Element present<br/>
+Clicking on Show Filter<br/>
+Verify that the number of items on Shop page before clicking on apply button is 115<br/>
+Is Element present<br/>
+Clicking on natural filter checkbox<br/>
+Is Element present<br/>
+Clicking on liquid filter checkbox<br/>
+Is Element present<br/>
+Clicking on apply filters button<br/>
+Is Element present<br/>
+Clicking on Hide Filters Button<br/>
+Verify that the number of items on Shop page after applying selected filters is 75<br/>
+Is Element present<br/>
+Clicking on Eaze drop blurring skin tint<br/>
+Verify that the user is navigated to the Eaze Drop Blurring Skin Tint 11 page URL<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/products/eaze-drop-blurring-skin-tint-11 )<br/>
+User is on https://fentybeauty.com/products/eaze-drop-blurring-skin-tint-11<br/>
+Is Element present<br/>
+Adding Royal Icing to shopping cart<br/>
+Verify that the Shopping cart header overview containing selected item slides out on the right side of the page, and that the number 1 is displayed on the shopping bag badge after clicking add to cart<br/>
+isElementPresent<br/>
+isElementPresent<br/>
+Is Element present<br/>
+Clicking on Shopping Cart Header button<br/>
+Is Element present<br/>
+Clicking on View Bag button<br/>
+isElementPresent<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/cart )<br/>
+User is on https://fentybeauty.com/cart<br/>
+Verify that the number of items in the shopping cart is 1 items<br/>
+Is Shopping Cart Items Number present<br/>
+Is Element present<br/>
+Clicking on Add more<br/>
+Verify that the number of items in shopping cart after clicking add more button is 2 items<br/>
+Is Element present<br/>
+Clicking on Checkout button<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/pages/international-checkout#Global-e_International_Checkout )<br/>
+User is on https://fentybeauty.com/pages/international-checkout#Global-e_International_Checkout<br/>
+Verify that Fenty Beauty logo is displayed on page<br/>
+isElementPresent<br/>
+</div>
+</td>
+<td></td>
+<td>72</td>
+<td>ShoppingTest@1205bd62</td></tr>
+<tr>
+<td title='SearchTest.searchAndAddItemToCart()'><b>searchAndAddItemToCart</b><br>Test class: SearchTest<br/>
+<a href="#Output-1441410416" onClick='toggleBox("Output-1441410416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1441410416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1441410416">
+Setting up Chrome driver<br/>
+Opening Chrome driver<br/>
+Navigating to https://fentybeauty.com/ <br/>
+Is Element present<br/>
+Clicking on Cookies Accept button<br/>
+Is Element present<br/>
+Clicking on Accept Welcome Message<br/>
+Is Element present<br/>
+Clicking on Search Icon<br/>
+isElementPresent<br/>
+Is Element present<br/>
+Entering HIGHLIGHTER DIAMOND in search input field and clicking enter<br/>
+Verify that the tittle is SEARCH RESULTS FOR HIGHLIGHTER DIAMOND<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/pages/search-results?s=HIGHLIGHTER%20DIAMOND )<br/>
+User is on https://fentybeauty.com/pages/search-results?s=HIGHLIGHTER%20DIAMOND<br/>
+Clicking on Royal Icing<br/>
+Is Element present<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-royal-icing )<br/>
+User is on https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-royal-icing<br/>
+Clicking on Rose Rave<br/>
+Is Element present<br/>
+isCurrentURLEqualTo ( https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-rose-rave )<br/>
+User is on https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-rose-rave<br/>
+Is Element present<br/>
+Adding Royal Icing to shopping cart<br/>
+isElementPresent<br/>
+Verify that number 1 is displayed in the shopping cart badge<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>SearchTest@616ac46a</td></tr>
+</table><p>
+</body>
+</html>

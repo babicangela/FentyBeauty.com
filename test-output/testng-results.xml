@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Opening Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Cookies Accept button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Accept Welcome Message]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the RS flag is displayed on the Flag icon]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Flag Icon]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the Change Shipping Country Popup is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Changing shipping country from RS to US by clicking Change your shipping country/region and choosing US from the dropdown selection list]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Save button]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the US flag is displayed on the Flag icon]]>
+    </line>
+    <line>
+      <![CDATA[Setting up Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Opening Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Cookies Accept button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Accept Welcome Message]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Search Icon]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Entering HIGHLIGHTER DIAMOND in search input field and clicking enter]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the tittle is SEARCH RESULTS FOR HIGHLIGHTER DIAMOND]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/pages/search-results?s=HIGHLIGHTER%20DIAMOND )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/pages/search-results?s=HIGHLIGHTER%20DIAMOND]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Royal Icing]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-royal-icing )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-royal-icing]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Rose Rave]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-rose-rave )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-rose-rave]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Adding Royal Icing to shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[Verify that number 1 is displayed in the shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[Setting up Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Opening Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Cookies Accept button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Accept Welcome Message]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Shade Finder page link]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Find my shade button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Soft Matte 255]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on BOTH]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Rarely burn and/or tans easily]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Purple]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on GOLDEN OLIVE]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Warm Golden 300]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the PRO FILT’R displayed shade number result is #300]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/pages/fenty-face-shade-finder-results?shade=300 )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/pages/fenty-face-shade-finder-results?shade=300]]>
+    </line>
+    <line>
+      <![CDATA[Setting up Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Opening Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Cookies Accept button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Accept Welcome Message]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Shop page link]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the shopping cart is empty]]>
+    </line>
+    <line>
+      <![CDATA[Getting number of items from shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[Clicking add to cart Glossy Posse Bomb Collection]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number 1 is displayed in the shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[Getting number of items from shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking add to cart Resting Peach Face Cream Blush]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number 2 is displayed in the shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[Getting number of items from shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Shopping Cart Header button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on View Bag button]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/cart )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number of items displayed in the shopping cart is 2 items]]>
+    </line>
+    <line>
+      <![CDATA[Get number of items from shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Remove from cart]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on YES button]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number of items left in the shopping cart is 1 item]]>
+    </line>
+    <line>
+      <![CDATA[Get number of items from shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[Verify that number 1 is displayed on the shopping cart badge]]>
+    </line>
+    <line>
+      <![CDATA[Setting up Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Opening Chrome driver]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Cookies Accept button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Accept Welcome Message]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Shop page link]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Show Filter]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number of items on Shop page before clicking on apply button is 115]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on natural filter checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on liquid filter checkbox]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on apply filters button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Hide Filters Button]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number of items on Shop page after applying selected filters is 75]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Eaze drop blurring skin tint]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the user is navigated to the Eaze Drop Blurring Skin Tint 11 page URL]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/products/eaze-drop-blurring-skin-tint-11 )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/products/eaze-drop-blurring-skin-tint-11]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Adding Royal Icing to shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the Shopping cart header overview containing selected item slides out on the right side of the page, and that the number 1 is displayed on the shopping bag badge after clicking add to cart]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Shopping Cart Header button]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on View Bag button]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/cart )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number of items in the shopping cart is 1 items]]>
+    </line>
+    <line>
+      <![CDATA[Is Shopping Cart Items Number present]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Add more]]>
+    </line>
+    <line>
+      <![CDATA[Verify that the number of items in shopping cart after clicking add more button is 2 items]]>
+    </line>
+    <line>
+      <![CDATA[Is Element present]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Checkout button]]>
+    </line>
+    <line>
+      <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/pages/international-checkout#Global-e_International_Checkout )]]>
+    </line>
+    <line>
+      <![CDATA[User is on https://fentybeauty.com/pages/international-checkout#Global-e_International_Checkout]]>
+    </line>
+    <line>
+      <![CDATA[Verify that Fenty Beauty logo is displayed on page]]>
+    </line>
+    <line>
+      <![CDATA[isElementPresent]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-14T08:42:06Z" name="Fenty Beauty" finished-at="2022-02-14T08:46:04Z" duration-ms="237969">
+    <groups>
+    </groups>
+    <test started-at="2022-02-14T08:42:06Z" name="C:/Users/Angela/FentyBeauty Project" finished-at="2022-02-14T08:46:04Z" duration-ms="237969">
+      <class name="SearchTest">
+        <test-method signature="searchAndAddItemToCart()[pri:0, instance:SearchTest@616ac46a]" started-at="2022-02-14T08:42:34Z" name="searchAndAddItemToCart" finished-at="2022-02-14T08:43:11Z" duration-ms="37345" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Opening Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Cookies Accept button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Accept Welcome Message]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Search Icon]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Entering HIGHLIGHTER DIAMOND in search input field and clicking enter]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the tittle is SEARCH RESULTS FOR HIGHLIGHTER DIAMOND]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/pages/search-results?s=HIGHLIGHTER%20DIAMOND )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/pages/search-results?s=HIGHLIGHTER%20DIAMOND]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Royal Icing]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-royal-icing )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-royal-icing]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Rose Rave]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-rose-rave )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/products/diamond-bomb-all-over-diamond-veil-rose-rave]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Adding Royal Icing to shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[Verify that number 1 is displayed in the shopping cart badge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchAndAddItemToCart -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:SearchTest@616ac46a]" started-at="2022-02-14T08:43:11Z" name="getResult" finished-at="2022-02-14T08:43:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndAddItemToCart status=SUCCESS method=SearchTest.searchAndAddItemToCart()[pri:0, instance:SearchTest@616ac46a] output=Setting up Chrome driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- SearchTest -->
+      <class name="ChangeCurrencyTest">
+        <test-method signature="ChangeCountryAndCurrency()[pri:0, instance:ChangeCurrencyTest@57576994]" started-at="2022-02-14T08:42:06Z" name="ChangeCountryAndCurrency" finished-at="2022-02-14T08:42:34Z" duration-ms="27506" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Opening Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Cookies Accept button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Accept Welcome Message]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the RS flag is displayed on the Flag icon]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Flag Icon]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the Change Shipping Country Popup is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Changing shipping country from RS to US by clicking Change your shipping country/region and choosing US from the dropdown selection list]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Save button]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the US flag is displayed on the Flag icon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ChangeCountryAndCurrency -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:ChangeCurrencyTest@57576994]" started-at="2022-02-14T08:42:34Z" name="getResult" finished-at="2022-02-14T08:42:34Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangeCountryAndCurrency status=SUCCESS method=ChangeCurrencyTest.ChangeCountryAndCurrency()[pri:0, instance:ChangeCurrencyTest@57576994] output=Setting up Chrome driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ChangeCurrencyTest -->
+      <class name="ShadeFinderTest">
+        <test-method signature="FindYourShade()[pri:0, instance:ShadeFinderTest@67b9b51a]" started-at="2022-02-14T08:43:11Z" name="FindYourShade" finished-at="2022-02-14T08:44:08Z" duration-ms="57440" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Opening Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Cookies Accept button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Accept Welcome Message]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Shade Finder page link]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Find my shade button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Soft Matte 255]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on BOTH]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Rarely burn and/or tans easily]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Purple]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on GOLDEN OLIVE]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Warm Golden 300]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the PRO FILT’R displayed shade number result is #300]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/pages/fenty-face-shade-finder-results?shade=300 )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/pages/fenty-face-shade-finder-results?shade=300]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FindYourShade -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:ShadeFinderTest@67b9b51a]" started-at="2022-02-14T08:44:08Z" name="getResult" finished-at="2022-02-14T08:44:08Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FindYourShade status=SUCCESS method=ShadeFinderTest.FindYourShade()[pri:0, instance:ShadeFinderTest@67b9b51a] output=Setting up Chrome driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ShadeFinderTest -->
+      <class name="ShoppingTest">
+        <test-method signature="addAndRemoveItemsFromShoppingCartPage()[pri:1, instance:ShoppingTest@1205bd62]" started-at="2022-02-14T08:44:08Z" name="addAndRemoveItemsFromShoppingCartPage" finished-at="2022-02-14T08:44:52Z" duration-ms="43509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Opening Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Cookies Accept button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Accept Welcome Message]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Shop page link]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the shopping cart is empty]]>
+            </line>
+            <line>
+              <![CDATA[Getting number of items from shopping cart badge]]>
+            </line>
+            <line>
+              <![CDATA[Clicking add to cart Glossy Posse Bomb Collection]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number 1 is displayed in the shopping cart badge]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[Getting number of items from shopping cart badge]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking add to cart Resting Peach Face Cream Blush]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number 2 is displayed in the shopping cart badge]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[Getting number of items from shopping cart badge]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Shopping Cart Header button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on View Bag button]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/cart )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number of items displayed in the shopping cart is 2 items]]>
+            </line>
+            <line>
+              <![CDATA[Get number of items from shopping cart badge]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Remove from cart]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on YES button]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number of items left in the shopping cart is 1 item]]>
+            </line>
+            <line>
+              <![CDATA[Get number of items from shopping cart badge]]>
+            </line>
+            <line>
+              <![CDATA[Verify that number 1 is displayed on the shopping cart badge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAndRemoveItemsFromShoppingCartPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:ShoppingTest@1205bd62]" started-at="2022-02-14T08:44:52Z" name="getResult" finished-at="2022-02-14T08:44:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAndRemoveItemsFromShoppingCartPage status=SUCCESS method=ShoppingTest.addAndRemoveItemsFromShoppingCartPage()[pri:1, instance:ShoppingTest@1205bd62] output=Setting up Chrome driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="filterAndAddItemThenIncreaseTheNumberInTheShoppingCart()[pri:2, instance:ShoppingTest@1205bd62]" started-at="2022-02-14T08:44:52Z" name="filterAndAddItemThenIncreaseTheNumberInTheShoppingCart" finished-at="2022-02-14T08:46:04Z" duration-ms="72129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Opening Chrome driver]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to https://fentybeauty.com/ ]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Cookies Accept button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Accept Welcome Message]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Shop page link]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Show Filter]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number of items on Shop page before clicking on apply button is 115]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on natural filter checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on liquid filter checkbox]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on apply filters button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Hide Filters Button]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number of items on Shop page after applying selected filters is 75]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Eaze drop blurring skin tint]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the user is navigated to the Eaze Drop Blurring Skin Tint 11 page URL]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/products/eaze-drop-blurring-skin-tint-11 )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/products/eaze-drop-blurring-skin-tint-11]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Adding Royal Icing to shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the Shopping cart header overview containing selected item slides out on the right side of the page, and that the number 1 is displayed on the shopping bag badge after clicking add to cart]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Shopping Cart Header button]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on View Bag button]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/cart )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number of items in the shopping cart is 1 items]]>
+            </line>
+            <line>
+              <![CDATA[Is Shopping Cart Items Number present]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Add more]]>
+            </line>
+            <line>
+              <![CDATA[Verify that the number of items in shopping cart after clicking add more button is 2 items]]>
+            </line>
+            <line>
+              <![CDATA[Is Element present]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Checkout button]]>
+            </line>
+            <line>
+              <![CDATA[isCurrentURLEqualTo ( https://fentybeauty.com/pages/international-checkout#Global-e_International_Checkout )]]>
+            </line>
+            <line>
+              <![CDATA[User is on https://fentybeauty.com/pages/international-checkout#Global-e_International_Checkout]]>
+            </line>
+            <line>
+              <![CDATA[Verify that Fenty Beauty logo is displayed on page]]>
+            </line>
+            <line>
+              <![CDATA[isElementPresent]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filterAndAddItemThenIncreaseTheNumberInTheShoppingCart -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:ShoppingTest@1205bd62]" started-at="2022-02-14T08:46:04Z" name="getResult" finished-at="2022-02-14T08:46:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterAndAddItemThenIncreaseTheNumberInTheShoppingCart status=SUCCESS method=ShoppingTest.filterAndAddItemThenIncreaseTheNumberInTheShoppingCart()[pri:2, instance:ShoppingTest@1205bd62] output=Setting up Chrome driver]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- ShoppingTest -->
+    </test> <!-- C:/Users/Angela/FentyBeauty Project -->
+  </suite> <!-- Fenty Beauty -->
+</testng-results>
