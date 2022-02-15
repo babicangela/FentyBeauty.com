@@ -10,3 +10,7 @@ Maven, TestNg, Selenium WebDriver
 
 ## Integrated Development Environment
 IntelliJ IDEA
+
+
+# Note
+test-output and Output packages are left intentionaly, so it shows emailable-report.html.
