@@ -28,13 +28,12 @@ public class UserAccountPage extends BasePage {
         return new BasePage(driver);
     }
 
-//    Metoda da li je ime korisnika prisutno
     public boolean isCustomerFirstNamePresentOnUserAccountPage(){
         logg.info("Is Customers First Name present On User Account Page");
         Reporter.log("Is Customers First Name present On User Account Page");
         return customerFirstName.isDisplayed();
     }
-    // Metoda da se uhvati ime korisnika na osnovu prethodne metode
+
     public String getCustomersFirstName(){
         logg.info("Get Customers First Name");
         Reporter.log("Get Customers First Name");
@@ -59,7 +58,8 @@ public class UserAccountPage extends BasePage {
             Reporter.log("Element is not present on page");
             return false;
         }
-    }}
+    }
+}
 
 
 
