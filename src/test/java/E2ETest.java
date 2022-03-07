@@ -91,8 +91,8 @@ public class E2ETest extends BaseTest {
             assert userAccountPage.customerFirstName.getText().equals("Andjela") : "Error. Customers name 'Andjela' not displayed on page, instead " + userAccountPage.customerFirstName.getText() + " is displayed";
 
             ShopPage shopPage = userAccountPage.clickOnShopButtonLInk();
-            Reporter.log("Verify that the number of items before filtering is 115 items", true);
-            assert shopPage.shopPageItemNumber.getText().equals("115 ITEMS") : "Error. Shop page item number should be 115, but is " + shopPage.shopPageItemNumber.getText();
+            Reporter.log("Verify that the number of items before filtering is 117 items", true);
+            assert shopPage.shopPageItemNumber.getText().equals("117 ITEMS") : "Error. Shop page item number should be 117, but is " + shopPage.shopPageItemNumber.getText();
 
             shopPage.clickOnShowFiltersButton();
             assert isElementPresent(shopPage.productFilterBody) : "Error. Product Filter Body not present on page";
