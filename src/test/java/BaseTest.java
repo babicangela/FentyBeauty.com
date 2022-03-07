@@ -1,4 +1,3 @@
-import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -9,8 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
-
 import java.io.File;
+import java.io.FileOutputStream;
 
 
 public class BaseTest {
@@ -37,14 +36,25 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void getResult(ITestResult result) throws Exception {
+        public void onTestFailure(ITestResult result) throws Exception {
+        Reporter.setCurrentTestResult(result);
+
+        File source = new File(System.getProperty("user.dir")+("./screenshots/") +result.getMethod().getMethodName()+System.currentTimeMillis()+".png");
+
         if (result.getStatus() == ITestResult.FAILURE) {
-            takeScreenshot(result.getName());
+            Reporter.log("Test failed. Capturing screenshot", true);
+
+            FileOutputStream screenshotStream = new FileOutputStream(source);
+            screenshotStream.write(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES));
+            screenshotStream.close();
+
+
+            log.info("Saving screenshot of failed test in to report");
+            Reporter.log(" <a href='"+source.getAbsolutePath()+"'> <img src='"+ source.getAbsolutePath()+"' height='200' width='300'/> </a>  ");
         }
     }
 
-    
-    @AfterTest
+    @AfterSuite
     public void tearDown() {
 
         driver.quit();
@@ -60,7 +70,6 @@ public class BaseTest {
         return b;
     }
 
-    
     public boolean isElementPresent(WebElement element) {
         log.info("isElementPresent");
         Reporter.log("isElementPresent");
@@ -80,7 +89,6 @@ public class BaseTest {
         }
     }
 
-    
     public void sleep() {
         try {
             Thread.sleep(5000);
@@ -90,36 +98,13 @@ public class BaseTest {
         }
     }
 
-    
-    public void takeScreenshot(String screenshotName) throws Exception {
-        log.info("Capturing screenshot");
-        Reporter.log("Capturing screenshot");
-        TakesScreenshot screenshot = (TakesScreenshot) driver;
-        File source = screenshot.getScreenshotAs(OutputType.FILE);
-        try {
-            FileUtils.copyFile(source, new File("./screenshots/" + screenshotName + System.currentTimeMillis() + ".png"));
-        } catch (Exception e) {
-            log.warn("Exception while taking screenshot" + e.getMessage());
-            Reporter.log("Exception while taking screenshot" + e.getMessage());
-            Reporter.log("<br><img src='" + screenshotName + "' height='200' width='300'/><br>");
-//                Reporter.log("<a href=" + screenshotName + "></a>");
-        }
-    }
-
-    
     public void waitForElement(WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-    
-    
-    //print method
-//    public void print(String text) {
-//        System.out.println(text);
-//    }
+
+//    print method
+    public void print(String text) {
+        System.out.println(text);
+    }
 }
-
-
-
-
-
