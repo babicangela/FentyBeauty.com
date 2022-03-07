@@ -46,7 +46,7 @@ public class ChangeCurrencyTest extends BaseTest {
             assert basePage.changeShippingCountryPopUp.isDisplayed() : "Error," + basePage.changeShippingCountryPopUp + "NOT displayed";
 
             Reporter.log("Changing shipping country from RS to US by clicking Change your shipping country/region and choosing US from the dropdown selection list");
-            basePage.changeShippingCountry.findElement(By.xpath("//*[@id='gle_selectedCountry']/option[190]")).click();
+            basePage.changeShippingCountry.findElement(By.xpath("//*[@id='gle_selectedCountry']/option[187]")).click();
             basePage.clickOnSaveButton();
 
             sleep();
