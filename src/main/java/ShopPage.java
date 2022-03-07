@@ -38,10 +38,10 @@ public class ShopPage extends BasePage {
     @FindBy ( xpath = "//*[contains(@class,'product') and contains(text(),'185')]" )
     WebElement proFiltrSoftMatte185e;
 
-    @FindBy ( xpath ="//*[@id='main']//div[12]/div/a[2]" )
+    @FindBy ( xpath ="//*[@id='main']//div[21]/div/a[2]" )
     WebElement glossyPosseBombCollection;
 
-    @FindBy ( xpath = "//*[@id='main']//div[6]/div/a[2]" )
+    @FindBy ( xpath = "//*[@id='main']//div[10]/div/a[2]" )
     WebElement matchStixContourSkinstick;
 
     @FindBy ( xpath = "//*[contains(@class,'product') and contains(text(),'11')]" )
