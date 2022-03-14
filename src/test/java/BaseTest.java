@@ -49,7 +49,7 @@ public class BaseTest {
             screenshotStream.close();
 
 
-            log.info("Saving screenshot of failed test in to report");
+            log.info("Saving screenshot of failed test in to testng report");
             Reporter.log(" <a href='"+source.getAbsolutePath()+"'> <img src='"+ source.getAbsolutePath()+"' height='200' width='300'/> </a>  ");
         }
     }
